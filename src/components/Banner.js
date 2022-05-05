@@ -4,6 +4,7 @@ import {
   FaTwitter,
   FaPinterest,
   FaInstagram,
+  // 
  
 } from "react-icons/fa";
 const Banner = () => {
