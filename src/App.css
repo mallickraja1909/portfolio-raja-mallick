@@ -26,7 +26,7 @@ body {
 
 
 .navbar {
-  width: 100%;
+  width: 90%;
   height: 100px;
   position: fixed;
   top: 0;
@@ -407,16 +407,17 @@ body {
 .header__content {
   display: flex;
   align-items: center;
-  height: 100vh;
-  width: 100%;
+  height: 100%;
+  width: 100;
   color: #fff;
 }
 .header__ul {
   list-style-type: none;
   display: flex;
   margin-bottom: 20px;
-  margin-left: 1rem;
-  /* margin-top:rem; */
+  margin-left: 3rem;
+  margin-top: 10rem;
+ 
 
 
 }
@@ -431,9 +432,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 10px;
+  margin: 0 6px;
   transition: all 0.5s linear;
   cursor: pointer;
+  margin-left: 2rem;
 }
 .header__ul li:hover {
   background: rgb(252, 255, 55);
@@ -460,9 +462,10 @@ body {
   margin-bottom: 50px;
 }
 .banner__img img{
-  
-  /* margin-top: 7rem; */
-  margin-bottom: 1rem;
+	width: 500px;
+	height: 850px;
+  margin-top: 26rem;
+  /* margin-bottom: 1rem; */
  
 
  
