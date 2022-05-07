@@ -29,9 +29,6 @@ body {
 
 
 
-.banner_img{
-	border: 2px yellow;
-}
 
 
 
@@ -46,7 +43,7 @@ body {
 
 	   object-fit:fill;
 	   object-position: bottom;
-	   margin-bottom:1px;
+	   margin-bottom:1rem;
 	   margin-left: 5rem;
 	   animation: myimg 7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards;
 
@@ -456,7 +453,7 @@ body {
   list-style-type: none;
   display: flex;
  
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-top: 110px; 
  
 }
