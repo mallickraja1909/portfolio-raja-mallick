@@ -51,9 +51,7 @@ const Banner = () => {
                   </li>
                 </ul>
                 <h1 className="bnr-h">{state.title1}</h1>
-                <div className="banner__img">
-              <img className="myimg" src={state.image} alt="man" />
-            </div>
+                
                 <h1 className="bnr-h1">{state.title}</h1>
                 <p className="bnr-p">{state.text}</p>
                 <div className="header__buttons">
@@ -65,9 +63,11 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-6"> */}
-{/*             
-          </div> */}
+          <div className="col-6">
+          <div className="banner__img">
+              <img className="myimg" src={state.image} alt="man" />
+            </div>
+          </div>
         </div>
       </div>
     </header>
