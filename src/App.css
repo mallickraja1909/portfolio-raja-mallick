@@ -15,13 +15,16 @@ body {
 .header {
   width: 100%;
   height: 100vh;
-  padding: 100px 0;
+  /* padding: 100px 0; */
   background: url("/images/bg.jpg");
   background: cover;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 }
+
+
+
 .navbar {
   width: 100%;
   height: 100px;
@@ -58,6 +61,8 @@ body {
   width: 5rem;
   height: 5rem;
   padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  margin-left:10rem ;
   
   
   
@@ -410,7 +415,10 @@ body {
   list-style-type: none;
   display: flex;
   margin-bottom: 20px;
-  margin-left: 3rem;
+  margin-left: 1rem;
+  /* margin-top:rem; */
+
+
 }
 
 
@@ -451,6 +459,28 @@ body {
   line-height: 40px;
   margin-bottom: 50px;
 }
+.banner__img img{
+  
+  /* margin-top: 7rem; */
+  margin-bottom: 1rem;
+ 
+
+ 
+  animation: banner__img 7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards;
+
+
+}
+@keyframes banner__img {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
 
 .btn {
   outline: none;
@@ -472,27 +502,7 @@ body {
   font-size: 25px !important;
   padding-top: 10px;
 }
-.banner__img img{
-  
-  margin-top: 1rem;
- 
 
- 
-  animation: banner__img 7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards;
-
-
-}
-@keyframes banner__img {
-	0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
 
 
 /* Servives */
@@ -533,7 +543,8 @@ body {
 
 .services__box {
   padding: 40px;
-  background: #23263a;
+  background: #290354;
+  border-radius: 14px;
   color: #fff;
   margin: 20px;
   transition: all 0.5s linear;
