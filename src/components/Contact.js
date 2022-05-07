@@ -23,16 +23,19 @@ const Contact = () => {
         }
       );
   };
-
+  function sayHello() {
+    alert('Thank You');
+  }
   return (
     <StyledContactForm>
       
       <div className="contact"> 
-      <h1>Contact</h1>
+      <div className="common">
       <div className="con-1">
         
         
       <br></br>
+      <h1>Contact</h1>
       <br></br>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name :</label>
@@ -46,8 +49,23 @@ const Contact = () => {
         <label>Message</label>
         <textarea name="message" />
         <br/>
-        <input type="submit" value="Send" />
+        {/* <button  className="button"> */}
+          {/* <input type="submit" value="Send" /> */}
+          {/* Submit
+          </button>
+         */}
+<div> 
+<button  className="button"
+         onClick={sayHello}>
+      Send
+    </button>
+</div>
+        
+        
+
+
       </form>
+      </div>
       </div>
       </div>
     </StyledContactForm>

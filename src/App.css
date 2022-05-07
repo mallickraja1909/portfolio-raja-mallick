@@ -15,7 +15,9 @@ body {
 .header {
   width: 100%;
   height: 100vh;
+  padding: 100px 0;
   background: url("/images/bg.jpg");
+  background: cover;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -26,6 +28,8 @@ body {
   position: fixed;
   top: 0;
   background: #00000025;
+ 
+
   z-index: 1;
  
 
@@ -46,12 +50,15 @@ body {
   display: flex;
   height: 100px;
   align-items: center;
+  
   justify-content: space-between;
+  margin-top: -6rem;
 }
 .navbar__left-logo img {
   width: 5rem;
   height: 5rem;
   padding-top: 0.5rem;
+  
   
   
 
@@ -77,7 +84,9 @@ body {
 
 .navbar__right {
   display: flex;
-  list-style-type: none;
+ /* margin-top: -12rem; */
+  list-style-type:none;
+  
 }
 .navbar__right li a {
   text-decoration: none;
@@ -85,12 +94,14 @@ body {
   font-weight: 500;
   font-size: 18px;
   padding: 0 15px;
+  
 }
 
 /* Helpers */
 .container {
-  width: 1200px;
+  /* width: 1200px; */
   margin: 0 auto;
+  padding: 100px 0;
 }
 .bgMain {
   background: #1f2235;
@@ -324,6 +335,7 @@ body {
 
 /* banner h1,h */
 .bnr-h{
+	padding-left: 2rem;
   color: #1be4eb;
   font-family: Georgia, "Times New Roman", Times, serif;
   animation: bnr-h 1s ease 0s 1 normal none;
@@ -342,6 +354,7 @@ body {
 
 
 .bnr-h1{
+	padding-left: 3rem;
   color: rgb(108, 251, 206);
   font-family: Georgia, "Times New Roman", Times, serif;
   
@@ -361,6 +374,7 @@ body {
 }
 /* banner-p */
 .bnr-p{
+	padding-left: 4rem;
   font-family: Arial, Helvetica, sans-serif;
   color: #c4e2e6;
   animation: bnr-p 12s cubic-bezier(0.83, 0, 0.17, 1) 0s 1 normal forwards;
@@ -449,14 +463,14 @@ body {
   padding: 13px 40px;
   border-radius: 50px;
 }
-.play {
+/* .play {
   font-size: 25px !important;
   padding-top: 10px;
-}
+} */
 .banner__img {
-  padding: 0 10px;
-  margin-top: 12rem;
-  height: 50pt;
+  /* padding: 100% 0; */
+  margin-top: 2rem;
+  /* height: 170pt; */
  
   animation: banner__img 7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards;
 
@@ -733,7 +747,7 @@ body {
 
 /*  */
 .services__box:hover .commonIcons {
-  color: #fff;
+  color: rgb(0, 221, 143);
 }
 .services__box-header {
   font-size: 20px;
@@ -745,7 +759,7 @@ body {
   color: #dfdfdf;
 }
 .about {
-  width: 100%;
+  /* width: 100%; */
   background: #23263a;
   padding: 100px 0;
 }
@@ -792,7 +806,7 @@ body {
   position: fixed;
   top: 25px;
   right: 25px;
-  background: rgba(113, 2, 104, 0.578);
+  background: rgba(252, 10, 232, 0.494);
   color: rgb(247, 217, 18);
   width: 30px;
   height: 30px;
@@ -801,6 +815,7 @@ body {
   align-items: center;
   justify-content: center;
   display: none;
+ 
 }
 
 
@@ -829,10 +844,21 @@ body {
     width: 100%;
     align-items: center;
 	justify-items:stretch;
-    background: rgba(2, 11, 29, 0.935);
+   
+
+
+
     position: fixed;
     top: 0;
     left: 0;
+
+	/* bkgrund img  mobil nav*/
+	background: url("/images/pexel.jpg");
+	background: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
   }
   .navbar__right li a {
     display: block;
@@ -874,42 +900,62 @@ body {
 
     .contact {
 		
-		border-radius: 5px;
+		border-radius: 1px;
 		background-color: #1f2235;
-		padding: 100px;
+		padding: 100px 0;
 		color: white;
+		font-size: x-large;
 	font-family: Georgia, 'Times New Roman', Times, serif;
           
        
 	}
 
 	input[type=text], select, textarea{
-		width: 100%;
+		width: 80%;
 		padding: 12px;
 		border: 1px solid #ccc;
-		border-radius: 4px;
+		border-radius: 13px;
 		box-sizing: border-box;
 		resize: vertical;
 	  }
 	  input[type=email], select, textarea{
-		width: 100%;
+		width: 80%;
 		padding: 12px;
 		border: 1px solid #ccc;
-		border-radius: 4px;
+		border-radius: 13px;
 		box-sizing: border-box;
 		resize: vertical;
 	  }
 
     
     .contact textarea{
-		width: 100%;
-		padding: 32px;
-		border: 1px solid #ccc;
-		border-radius: 4px;
+		width: 50%;
+		padding: 42px;
+		border: 2px solid rgb(255, 239, 14);
+		border-radius: 13px;
 		box-sizing: border-box;
-		resize: vertical;
+		/* resize: vertical; */
+		color: #560606;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-size: larger;
+		font-style: oblique;
 	
     }
+	.button {
+		display: block;
+		width: 30%;
+		background-color: rgba(77, 15, 29, 0.65);
+		border: 2px solid rgb(220, 255, 20);
+
+		border-color: #ffef3b;
+		border-radius: 9px;
+		padding: 1ch;
+		font-size: 1.5rem;
+		color: #fff;
+		font-family: inherit;
+		justify-items: center;
+		
+	}
 	label {
 		padding: 12px 12px 12px 0;
 		display: inline-block;
