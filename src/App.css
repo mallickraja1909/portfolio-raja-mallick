@@ -415,7 +415,7 @@ body {
   list-style-type: none;
   display: flex;
   margin-bottom: 20px;
-  margin-left: 3rem;
+  margin-left: 1rem;
   margin-top: 10rem;
  
 
@@ -432,10 +432,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 6px;
+  margin: 0 5px;
   transition: all 0.5s linear;
   cursor: pointer;
-  margin-left: 2rem;
+ 
 }
 .header__ul li:hover {
   background: rgb(252, 255, 55);
