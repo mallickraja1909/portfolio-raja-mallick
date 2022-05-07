@@ -29,7 +29,9 @@ body {
 
 
 
-
+.banner_img{
+	border: 2px yellow;
+}
 
 
 
@@ -40,12 +42,12 @@ body {
 
 
 	   width: 50%;
-	   height: 500px;
+	   height: 390px;
 
 	   object-fit:fill;
 	   object-position: bottom;
-	   margin-top: 5rem;
-	   margin-left: 7rem;
+	   margin-top: 0.5rem;
+	   margin-left: 3rem;
 	   animation: myimg 7s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards;
 
 	}
@@ -379,7 +381,7 @@ body {
 
 /* banner h1,h */
 .bnr-h{
-	padding-left: 2rem;
+	padding-left: 1rem;
   color: #07f7ff;
   font-family: Georgia, "Times New Roman", Times, serif;
   animation: bnr-h 1s ease 0s 1 normal none;
@@ -398,7 +400,7 @@ body {
 
 
 .bnr-h1{
-	padding-left: 2rem;
+	padding-left: 1rem;
   color: rgb(1, 233, 160);
   font-family: Georgia, "Times New Roman", Times, serif;
   
@@ -418,7 +420,7 @@ body {
 }
 /* banner-p */
 .bnr-p{
-	padding-left: 2rem;
+	padding-left: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
   animation: bnr-p 12s cubic-bezier(0.83, 0, 0.17, 1) 0s 1 normal forwards;
@@ -454,7 +456,7 @@ body {
   display: flex;
  
   margin-left: 2rem;
-  margin-top: 160px; 
+  margin-top: 110px; 
  
 }
 
@@ -471,6 +473,7 @@ body {
   margin: 0 5px;
   transition: all 0.5s linear;
   cursor: pointer;
+  margin-top: 10px;
  
 }
 .header__ul li:hover {
