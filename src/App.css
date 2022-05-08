@@ -6,21 +6,42 @@
 
 .appfull{
   border: #a5ae1c;
-  border-radius: 2px;
+  /* border-radius: 2px; */
+  background-image: url("/images/bg.jpg") ;
+  background-attachment: fixed;
+background-repeat:repeat;
 }
 body {
   font-family: "Poppins", sans-serif;
+  
 }
+
+/* .mainpage{
+	background-image: url("/images/bg.jpg") ;
+
+	background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+} */
+
+
+
+
+
+
 /*  */
+
+
 .header {
   /* width: 100%; */
   height: 100vh;
   padding: 100px 0;
-  background: url("/images/bg.jpg");
+  /* background: url("/images/bg.jpg"); */
   background: cover;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  background: transparent;
 }
 /* .myimg{
 	width: 50%;
@@ -147,7 +168,8 @@ body {
   padding: 100px 0;
 }
 .bgMain {
-  background: #1f2235;
+  /* background: #1f2235; */
+  background: transparent;
 }
 
 .h-650 {
@@ -497,13 +519,16 @@ body {
   /* line-height: 40px; */
   margin-top: 10px;
 }
-/* .banner__img img{
-	width: 300px;
-	height: 550px;
+.banner__img img{
+	width: 150px;
+	height: 350px;
  
-margin-left:0.5rem;
-margin-top: 10px;
-
+/* margin-left:0.5rem;
+margin-top: 10px; */
+position: absolute;
+    top: 19%;
+    left: 30%;
+background-attachment: fixed;
 
   
 
@@ -523,7 +548,7 @@ margin-top: 10px;
 		opacity: 1;
 		transform: translateX(0);
 	}
-} */
+}
 
 .btn {
   outline: none;
@@ -550,9 +575,10 @@ margin-top: 10px;
 
 /* Servives */
 .services {
-  background: #1f2235;
+  /* background: #1f2235; */
   padding: 100px 0;
   color: rgb(45, 51, 125);
+  background: transparent;
 
 }
 
@@ -820,8 +846,9 @@ margin-top: 10px;
 }
 .about {
   /* width: 100%; */
-  background: #23263a;
+  /* background: #23263a; */
   padding: 100px 0;
+  background: transparent;
 }
 
 .about__img img {
@@ -988,7 +1015,8 @@ margin-top: 10px;
     .contact {
 		
 		border-radius: 1px;
-		background-color: #1f2235;
+		/* background-color: #1f2235; */
+		background: transparent;
 		padding: 100px 0;
 		color: white;
 		font-size: x-large;

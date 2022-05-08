@@ -56,6 +56,7 @@ import "./App.css";
 // import Nav from "./components/Nav";
 // import Services from "./components/Services";
 // import About from "./components/About";
+import Img from "./images/man-01.png";
 import Main from "./components/Main";
 
 // import Contact from "./components/Contact";
@@ -64,6 +65,9 @@ function App() {
   return (
     // 
     <div className="appfull">
+      <div className="banner__img">
+              <img className="myimg" src={Img} alt="man" />
+            </div>
       {/* <Banner />
       <Nav />
       <Services />
