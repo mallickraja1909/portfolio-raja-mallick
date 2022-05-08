@@ -52,22 +52,24 @@
 // 
 import React from "react";
 import "./App.css";
-import Banner from "./components/Banner";
-import Nav from "./components/Nav";
-import Services from "./components/Services";
-import About from "./components/About";
+// import Banner from "./components/Banner";
+// import Nav from "./components/Nav";
+// import Services from "./components/Services";
+// import About from "./components/About";
+import Main from "./components/Main";
 
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 
 function App() {
   return (
     // 
     <div className="appfull">
-      <Banner />
+      {/* <Banner />
       <Nav />
       <Services />
       <About />
-      <Contact />
+      <Contact /> */}
+      <Main/>
     </div>
   );
 }

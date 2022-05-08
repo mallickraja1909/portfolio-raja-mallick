@@ -4,6 +4,10 @@ import {
   FaTwitter,
   FaPinterest,
   FaInstagram,
+  FaHtml5,
+  FaCss3,
+  FaReact,
+  FaBootstrap,
   // 
  
 } from "react-icons/fa";
@@ -46,7 +50,7 @@ const Banner = () => {
                     <FaPinterest className="headerIcon3" />
                   </li>
                   <li>
-                    <FaInstagram className="headerIcon4" />
+                    <FaBootstrap className="headerIcon4" />
                     {/*  */}
                   </li>
                 </ul>
@@ -67,6 +71,34 @@ const Banner = () => {
           <div className="banner__img">
               <img className="myimg" src={state.image} alt="man" />
             </div>
+
+
+
+
+{/* 
+            <ul className="header__u2">
+
+                
+<li>
+  <FaHtml5 className="ic1 " />
+</li>
+<li>
+  <FaCss3 className="ic2" />
+</li>
+<li>
+  <FaReact className="ic3" />
+</li>
+<li>
+  <FaInstagram className="ic4" />
+  
+</li>
+</ul> */}
+
+
+
+
+
+
           </div>
         </div>
       </div>
