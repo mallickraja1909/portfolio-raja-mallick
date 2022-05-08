@@ -3,10 +3,7 @@ import {
   FaFacebookF,
   FaTwitter,
   FaPinterest,
-  FaInstagram,
-  FaHtml5,
-  FaCss3,
-  FaReact,
+  
   FaBootstrap,
   // 
  
