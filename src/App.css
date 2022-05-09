@@ -26,7 +26,7 @@ body {
 
 .header {
 
-  height: 1%;
+  height: 100%;
   padding: 100px 0;
  
   background: cover;
@@ -872,27 +872,26 @@ body {
  
 }
 
-
-@media (max-width: 761px) {
-  .container {
-    width: 100%;
-    padding: 0 50px;
-  }
-  .col-2 {
-    width: 100%;
-  }
-  .col-1 {
-    width: 100%;
-  }
-  .col-6 {
-    width: 100%;
-  }
-  .col-3 {
-    width: 100%;
-  }
-  .col-4 {
-    width: 100%;
-  }
+@media (max-width: 765px) {
+	.container {
+	  width: 100%;
+	  padding: 0 50px;
+	}
+	.col-2 {
+	  width: 100%;
+	}
+	.col-1 {
+	  width: 100%;
+	}
+	.col-6 {
+	  width: 100%;
+	}
+	.col-3 {
+	  width: 100%;
+	}
+	.col-4 {
+	  width: 100%;
+	}
   .navbar__right {
     flex-direction: column;
     width: 100%;
@@ -1034,25 +1033,9 @@ body {
 		clear: both;
 	  }
     /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 600px) {
 	.col-25, .col-75, input[type=submit] {
 	  width: 100%;
 	  margin-top: 0;
 	}
   }
-
-
-  .ic1{
-	  color: #f0ff1c;
-  }
-  .ic2{
-	  color: #f414cb;
-  }
-  .ic3{
-	  color: gold;
-
-  }
-  .ic4{
-	  color: #07f7ff;
-  }
-  
