@@ -72,26 +72,6 @@ const Banner = () => {
 
 
 
-{/* 
-            <ul className="header__u2">
-
-                
-<li>
-  <FaHtml5 className="ic1 " />
-</li>
-<li>
-  <FaCss3 className="ic2" />
-</li>
-<li>
-  <FaReact className="ic3" />
-</li>
-<li>
-  <FaInstagram className="ic4" />
-  
-</li>
-</ul> */}
-
-
 
 
 

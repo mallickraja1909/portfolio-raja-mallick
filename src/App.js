@@ -65,9 +65,14 @@ function App() {
   return (
     // 
     <div className="appfull">
+       <div className="col-6">
       <div className="banner__img">
               <img className="myimg" src={Img} alt="man" />
+              
+              </div>
             </div>
+
+            
       {/* <Banner />
       <Nav />
       <Services />
