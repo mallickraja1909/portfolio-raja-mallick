@@ -29,7 +29,7 @@ const Banner = () => {
             <div className="header__content">
               <div className="header__section">
 
-             
+            
 
 
 
@@ -65,9 +65,9 @@ const Banner = () => {
             </div>
           </div>
           <div className="col-6">
-          {/* <div className="banner__img">
+          <div className="banner__img">
               <img className="myimg" src={state.image} alt="man" />
-            </div> */}
+            </div>
 
 
 
