@@ -103,6 +103,7 @@
 	
 	justify-content: space-between;
 	margin-top: -6rem;
+	cursor: pointer;
   }
   .navbar__left-logo img {
 	width: 5rem;
