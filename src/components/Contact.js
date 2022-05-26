@@ -23,9 +23,7 @@ const Contact = () => {
         }
       );
   };
-  function sayHello() {
-    alert('Thank You');
-  }
+  
   return (
     <StyledContactForm>
       
